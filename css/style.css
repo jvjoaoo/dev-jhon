@@ -76,10 +76,6 @@ p {
   border-radius: 50%;
   box-shadow: 3px 3px 8px #000;
 }
-.content-about {
-  margin-left: 3%;
-}
-
 .title-aboutMe {
   color: #000;
   font-size: 3rem;
@@ -151,10 +147,8 @@ p {
 }
 .section-projetos {
   height: 100vh;
-  background-image: url("../imagens/projetos/bg-image-projetos.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background: url("../imagens/projetos/bg-image-projetos.jpg") no-repeat
+    center/cover fixed;
 }
 .projetoBackground {
   background: rgba(17, 17, 17, 0.9);
