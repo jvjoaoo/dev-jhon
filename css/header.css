@@ -1,0 +1,49 @@
+.container{
+	width: 70%;
+	margin: 0 auto;
+}
+.cabecalhoPrincipal{
+	padding: 30px 0;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+	transition: all .2s ease-in-out;
+}
+.scrollmax{
+	background-color: rgba(0, 0, 0, 0.0);
+	padding: 30px 0;
+}
+.scrollmin{
+	background-color: rgba(0, 0, 0, 0.980);
+	padding: 10px 0;
+}
+
+.cabecalhoPrincipal-titulo {
+	font-weight: 100;
+	font-size: 2em;
+	color: #fff;
+}
+.cabecalhoPrincipal-nav-link {
+	padding: 10px;
+	margin-bottom: 10px;
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.3rem;
+	font-weight: 200;
+	display: block;
+	transition: .5s;
+}
+.cabecalhoPrincipal-nav-link:hover{
+	color: #FF9700;
+}
+
+
+.cabecalhoPrincipal .container{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.cabecalhoPrincipal-nav{
+	display: flex;
+}

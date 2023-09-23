@@ -1,0 +1,5 @@
+Barra de navegação (tag <header> e <nav>) 
+background-color: #000
+
+Boa parte do conteúdo (tag <main>):
+background-color: rgba(17,17,17,255)
