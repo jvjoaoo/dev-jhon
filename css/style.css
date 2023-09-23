@@ -122,9 +122,6 @@ p {
   background: rgba(0, 0, 0, 0.3);
 }
 .boxprojetos01 {
-  background-image: url("../imagens/projetos/transmobi.png");
-  background-repeat: no-repeat;
-  background-size: cover;
   color: #fff;
   font-size: 2rem;
   font-weight: 700;
@@ -192,7 +189,6 @@ p {
 }
 .img-aboutMe {
   background-image: url("../imagens/joao-vitor.jpg");
-  /*background-image: url("../imagens/joao-perfil2.jpeg");*/
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
