@@ -1,182 +1,183 @@
 /* --------------------- MEDIA HEADER e NAV ------------------------ */
-@media(max-width: 768px){
-	.cabecalhoPrincipal-nav-link{
-		font-size: 1rem;
-	}
-}
-@media screen and (min-width: 768px){
-	.cabecalhoPrincipal-nav-link{
-		font-size: 1.3rem;
-	}
+@media screen and (max-width: 768px) {
+  .cabecalhoPrincipal-titulo {
+    font-size: 1.5rem;
+  }
+  .container {
+    width: 93%;
+  }
+  .cabecalhoPrincipal-nav-link {
+    font-size: 1rem;
+  }
 }
 /* --------------------- MEDIA INICIO ------------------------ */
-@media(max-width: 768px){
-	.cabecalhoPrincipal-nav-link{
-		padding: 10px;
-	}
-	.title-principal{
-		font-size: 2.5rem;
-	}
-	.title-descricao-inicio{
-		font-size: 2rem;
-	}
-	.cta-principal{
-		width: 40%;
-		font-size: 1.3rem;
-	}
+@media (max-width: 768px) {
+  .title-principal {
+    font-size: 2.5rem;
+  }
+  .title-principal {
+    font-size: 1.9rem;
+  }
+  .title-descricao-inicio {
+    font-size: 1.5rem;
+  }
+  .cta-principal {
+    width: 100%;
+    max-width: 200px;
+    font-size: 1.3rem;
+  }
 }
-@media(max-width: 992px){
-	.cabecalhoPrincipal-nav-link{
-		padding: 10px;
-	}
-	.title-principal{
-		font-size: 2.5rem;
-	}
-	.title-descricao-inicio{
-		font-size: 2rem;
-	}
-	.cta-principal{
-		width: 40%;
-		font-size: 1.3rem;
-	}
+@media only screen and (max-width: 992px) {
+  .cabecalhoPrincipal-nav-link {
+    padding: 10px;
+  }
+  .title-principal {
+    font-size: 2.5rem;
+  }
+  .title-descricao-inicio {
+    font-size: 2rem;
+  }
+  .cta-principal {
+    width: 100%;
+    max-width: 270px;
+    font-size: 1.3rem;
+  }
 }
 
 /* --------------------- MEDIA SOBRE ------------------------ */
 
-@media screen and (min-width: 0px){
-	.content-about{
-		width: 100%;
-		text-align: center;
-	}
-	.sobre{
-		padding: 3rem 2rem;
-	}
-	.heading-decoration{
-		width: 50%;
-	}
-	.config-firstList{
-		flex-direction: column;
-		align-items: center;
-	}
-	.title-descricao{
-		font-size: 2rem;
-	}
+@media screen and (min-width: 390px) {
+  .content-about {
+    width: 100%;
+  }
+  .sobre {
+    padding: 3rem 2rem;
+  }
+  .heading-decoration {
+    width: 50%;
+  }
+  .config-firstList {
+    flex-direction: column;
+    align-items: center;
+  }
+  .title-descricao {
+    font-size: 2rem;
+  }
 }
-@media screen and (min-width: 768px){
-	.content-about{
-		width: 50%;
-		text-align: inherit;
-	}
-	.sobre{
-		padding: 3rem 10rem;
-	}
-	.config-firstList{
-		flex-direction: row;	
-	}
-	.title-descricao{
-		font-size: 3rem;
-	}
+@media screen and (min-width: 768px) {
+  .content-about {
+    width: 100%;
+  }
+  .sobre {
+    padding: 3rem 10rem;
+  }
+  .config-firstList {
+    flex-direction: row;
+  }
+  .title-descricao {
+    font-size: 3rem;
+  }
 }
 /* --------------------- MEDIA PROJETOS ------------------------ */
-@media screen and (max-width: 768px){
-	.section-projetos{
-		height: auto;
-	}
-	.projetos-config{
-		flex-direction: column;
-		align-items: center;
-	}
-	.title-descricaoProjetos{
-		font-size: 2rem;
-	}
-	.projetoBackground{
-		height: auto;
-	}
-	.boxprojetos01{
-		width: 90%;
-		height: 20%;
-	}
-	.boxprojetos02{
-		width: 90%;
-		height: 20%;
-	}
-	.boxprojetos03{
-		width: 90%;
-		height: 20%;
-	}
-	.boxprojetos01:hover{
-		transform: none;
-		box-shadow: 20px 10px 8px #000;
-	}
-	.boxprojetos02:hover{
-		transform: none;
-		box-shadow: 20px 10px 8px #000;
-	}
-	.boxprojetos03:hover{
-		transform: none;
-		box-shadow: 20px 10px 8px #000;
-	}
+@media screen and (max-width: 768px) {
+  .section-projetos {
+    height: auto;
+  }
+  .projetos-config {
+    flex-direction: column;
+    align-items: center;
+  }
+  .title-descricaoProjetos {
+    font-size: 2rem;
+  }
+  .projetoBackground {
+    height: auto;
+  }
+  .boxprojetos01 {
+    width: 90%;
+    height: 20%;
+  }
+  .boxprojetos02 {
+    width: 90%;
+    height: 20%;
+  }
+  .boxprojetos03 {
+    width: 90%;
+    height: 20%;
+  }
+  .boxprojetos01:hover {
+    transform: none;
+    box-shadow: 20px 10px 8px #000;
+  }
+  .boxprojetos02:hover {
+    transform: none;
+    box-shadow: 20px 10px 8px #000;
+  }
+  .boxprojetos03:hover {
+    transform: none;
+    box-shadow: 20px 10px 8px #000;
+  }
 }
-@media screen and (min-width: 768px){
-	.projetos-config{
-		flex-direction: row;
-	}
-	.title-descricaoProjetos{
-		font-size: 3rem;
-	}	
-	.boxprojetos01{
-		width: 30%;
-		height: 300px;
-	}
-	.boxprojetos02{
-		width: 30%;
-		height: 300px;
-	}
-	.boxprojetos03{
-		width: 30%;
-		height: 300px;
-	}
+@media screen and (min-width: 768px) {
+  .projetos-config {
+    flex-direction: row;
+  }
+  .title-descricaoProjetos {
+    font-size: 3rem;
+  }
+  .boxprojetos01 {
+    width: 30%;
+    height: 300px;
+  }
+  .boxprojetos02 {
+    width: 30%;
+    height: 300px;
+  }
+  .boxprojetos03 {
+    width: 30%;
+    height: 300px;
+  }
 
-	.boxprojetos01:hover{
-		transform: scale(1.1);
-		box-shadow: 20px 10px 8px #000;
-	}
-	.boxprojetos02:hover{
-		transform: scale(1.1);
-		box-shadow: 20px 10px 8px #000;
-	}
-	.boxprojetos03:hover{
-		transform: scale(1.1);
-		box-shadow: 20px 10px 8px #000;
-	}
+  .boxprojetos01:hover {
+    transform: scale(1.1);
+    box-shadow: 20px 10px 8px #000;
+  }
+  .boxprojetos02:hover {
+    transform: scale(1.1);
+    box-shadow: 20px 10px 8px #000;
+  }
+  .boxprojetos03:hover {
+    transform: scale(1.1);
+    box-shadow: 20px 10px 8px #000;
+  }
 }
 /* --------------------- MEDIA CONTATO ------------------------ */
-@media screen and (min-width: 0px){
-	.contato{
-		padding: 3rem 1rem;
-	}
-	.title-descricao-contato{
-		font-size: 2rem;
-	}
+@media screen and (min-width: 0px) {
+  .contato {
+    padding: 3rem 1rem;
+  }
+  .title-descricao-contato {
+    font-size: 2rem;
+  }
 }
-@media screen and (min-width: 768px){
-	.title-descricao-contato{
-		font-size: 3rem;
-	}
-	.heading-decoration{
-		width: 20%;
-	}
+@media screen and (min-width: 768px) {
+  .title-descricao-contato {
+    font-size: 3rem;
+  }
+  .heading-decoration {
+    width: 20%;
+  }
 }
 
 /* --------------------- MEDIA RODAPE ------------------------ */
-@media screen and (min-width: 0){
-	.copyright-config{
-		font-size: 0.9rem;
-	}
+@media screen and (min-width: 0) {
+  .copyright-config {
+    font-size: 0.9rem;
+  }
 }
 
-@media screen and (min-width: 768px){
-	.copyright-config{
-		font-size: 1.1rem;
-	}
+@media screen and (min-width: 768px) {
+  .copyright-config {
+    font-size: 1.1rem;
+  }
 }

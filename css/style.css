@@ -65,7 +65,8 @@ p {
 
 .containerAbout {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   flex-wrap: wrap;
 }
 .img-aboutMe {
@@ -76,7 +77,6 @@ p {
   box-shadow: 3px 3px 8px #000;
 }
 .content-about {
-  width: 50%;
   margin-left: 3%;
 }
 
@@ -85,11 +85,13 @@ p {
   font-size: 3rem;
   margin: 1rem 0;
   font-weight: 200;
+  text-align: center;
 }
 .textAbout {
   font-size: 1.3rem;
   font-weight: 300;
   line-height: 24px;
+  text-align: inherit;
 }
 
 .title-descricao {
