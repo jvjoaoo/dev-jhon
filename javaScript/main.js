@@ -14,16 +14,3 @@ function diminuiHeader() {
     header.classList.add("scrollmax")
   }
 }
-
-//Opções para mascarar a URL
-// Opção 01
-
-document.getElementById("sobre").addEventListener("click", function (event) {
-  event.preventDefault() // Impede o comportamento padrão do link
-
-  // Mascarar a URL (substitua a URL abaixo pela URL desejada)
-  var newURL = "https://jvjoaoo.github.io/dev-jhon/"
-
-  // Redirecionar para a URL mascarada
-  window.location.href = newURL
-})

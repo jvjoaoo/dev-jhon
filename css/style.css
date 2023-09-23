@@ -58,6 +58,39 @@ p {
   background-color: #fff;
   color: #000;
 }
+/* -- Primeira section Sobre mim */
+.sobre {
+  padding: 3rem 10rem;
+}
+
+.containerAbout {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.img-aboutMe {
+  background: url("../imagens/joao-perfil.jpg") no-repeat center/cover;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  box-shadow: 3px 3px 8px #000;
+}
+.content-about {
+  width: 50%;
+  margin-left: 3%;
+}
+
+.title-aboutMe {
+  color: #000;
+  font-size: 3rem;
+  margin: 1rem 0;
+  font-weight: 200;
+}
+.textAbout {
+  font-size: 1.3rem;
+  font-weight: 300;
+  line-height: 24px;
+}
 
 .title-descricao {
   font-size: 3rem;
@@ -70,6 +103,50 @@ p {
   width: 20%;
 }
 
+.escolha-cores {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* -- Skills --*/
+.title-descricao {
+  color: #000;
+  font-size: 3rem;
+  margin: 2rem 0;
+}
+.config-interna-list ul {
+  list-style: disc;
+  padding-left: 1.1rem;
+}
+.config-firstList {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.config-firstList li {
+  padding: 2rem 1.1rem;
+  list-style: none;
+}
+.skills-text {
+  font-size: 1.2rem;
+  font-weight: 200;
+  padding: 2.7rem 3rem;
+  text-align: center;
+}
+/* -- Projetos --*/
+.title-descricao-text {
+  color: #fff;
+  font-size: 3rem;
+  margin: 1rem 0;
+}
+.conteudo-textual p {
+  color: #f1f1f1;
+  font-size: 1.2rem;
+  padding: 0.5rem 0;
+}
 .section-projetos {
   height: 100vh;
   background-image: url("../imagens/projetos/bg-image-projetos.jpg");
@@ -95,7 +172,6 @@ p {
   text-align: center;
   padding: 2rem 1rem;
 }
-
 .boxEfeito {
   width: 100%;
   height: 100%;
@@ -172,88 +248,8 @@ p {
   box-shadow: 20px 10px 8px #000;
 }
 
-.escolha-cores {
-  height: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+/* -- Contato/Footer --*/
 
-.sobre {
-  padding: 3rem 10rem;
-}
-
-.containerAbout {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-.img-aboutMe {
-  background-image: url("../imagens/joao-vitor.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-  box-shadow: 3px 3px 8px #000;
-}
-.content-about {
-  width: 50%;
-  margin-left: 3%;
-}
-
-.title-aboutMe {
-  color: #000;
-  font-size: 3rem;
-  margin: 1rem 0;
-  font-weight: 200;
-}
-.textAbout {
-  font-size: 1.3rem;
-  font-weight: 300;
-  line-height: 24px;
-}
-
-.title-descricao {
-  color: #000;
-  font-size: 3rem;
-  margin: 2rem 0;
-}
-
-.config-interna-list ul {
-  list-style: disc;
-  padding-left: 1.1rem;
-}
-.config-firstList {
-  font-size: 1.5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.config-firstList li {
-  padding: 2rem 1.1rem;
-  list-style: none;
-}
-
-.skills-text {
-  font-size: 1.2rem;
-  font-weight: 200;
-  padding: 2.7rem 3rem;
-  text-align: center;
-}
-
-.title-descricao-text {
-  color: #fff;
-  font-size: 3rem;
-  margin: 1rem 0;
-}
-
-.conteudo-textual p {
-  color: #f1f1f1;
-  font-size: 1.2rem;
-  padding: 0.5rem 0;
-}
 .contato {
   padding: 3rem 10rem;
 }
