@@ -67,7 +67,6 @@ p {
   flex-wrap: wrap;
 }
 .img-aboutMe {
-  background: url("../imagens/joao-perfil.jpg") no-repeat center/cover;
   width: 300px;
   height: 300px;
   border-radius: 50%;
