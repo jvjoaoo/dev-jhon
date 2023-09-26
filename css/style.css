@@ -35,7 +35,7 @@ p {
   border-right: 4px solid;
   width: 25ch;
   overflow: hidden;
-  animation: typing 3s steps(25), blinking 0.5s infinite step-end;
+  animation: typing 3s steps(25), blinking 0.7s infinite step-end;
   white-space: nowrap;
   color: #fff;
   font-weight: 300;
@@ -56,7 +56,7 @@ p {
   padding: 10px;
   transition: 0.2s;
   width: 100%;
-  max-width: 200px;
+  max-width: 180px;
   font-size: 1.2rem;
 }
 .cta-principal:hover {
@@ -158,7 +158,7 @@ p {
   border-right: 4px solid;
   width: 10ch;
   overflow: hidden;
-  animation: loading 3s steps(10), blinking 0.3s infinite step-end;
+  animation: loading 3s steps(10), blinking 0.7s infinite step-end;
   white-space: nowrap;
 }
 /* -- Contato/Footer --*/
