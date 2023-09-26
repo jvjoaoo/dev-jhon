@@ -92,13 +92,20 @@ p {
   line-height: 24px;
   text-align: inherit;
 }
-/* -- Skills --*/
-.title-skills {
+/* -- work/Skills --*/
+.about__work {
+  width: 95%;
+  border: 0px solid #000;
+  border-radius: 3px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+.subtitle__about {
   color: #000;
   font-size: 1.5rem;
   margin: 2rem 0;
 }
-.skills-text {
+.about__text {
   font-size: 1rem;
   font-weight: 400;
   text-align: inherit;
