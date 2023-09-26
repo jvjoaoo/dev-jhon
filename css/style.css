@@ -92,23 +92,8 @@ p {
   line-height: 24px;
   text-align: inherit;
 }
-
-.title {
-  font-size: 3rem;
-  font-weight: 200;
-  text-transform: uppercase;
-  text-align: center;
-  margin-top: 30px;
-}
-.escolha-cores {
-  height: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 /* -- Skills --*/
-.title-descricao {
+.title-skills {
   color: #000;
   font-size: 1.5rem;
   margin: 2rem 0;
@@ -126,7 +111,8 @@ p {
 }
 .projetoBackground {
   background: rgba(17, 17, 17, 0.9);
-  height: 50vh;
+  position: relative;
+  height: 100%;
 }
 .projeto__align {
   display: flex;
@@ -168,22 +154,15 @@ p {
   padding: 3rem 1rem;
 }
 
-.title-descricao-contato {
+.title__contato {
+  font-size: 1.5rem;
   color: #fff;
-  text-align: center;
-  font-weight: 200;
-  margin: 1rem 0;
+  font-weight: 400;
 }
 
 .contatosInfo {
-  text-align: center;
   font-size: 1rem;
   font-weight: 200;
-  padding: 3rem 0;
-}
-
-.contatosInfo p {
-  padding: 1rem;
 }
 .contatosInfo a {
   color: #fff;
@@ -193,20 +172,17 @@ p {
   color: #ff9700;
   transition: 0.2s;
 }
-
-.rodape {
-  background: #191919;
-  height: 100px;
-}
-
 .copyright-config {
-  padding: 2.1rem 1rem;
+  background: #191919;
+  padding: 0 1rem;
   color: #fff;
   text-align: center;
-  font-size: 1.1rem;
-  font-weight: 100;
+  font-size: 0.7rem;
+  font-weight: 200;
 }
 
+/* -- Animações em CSS -- */
+/* -- Maquina de escrever -- */
 @keyframes typing {
   from {
     width: 0;
@@ -230,6 +206,7 @@ p {
   }
 }
 
+/* -- Loading/Carregamento -- */
 @keyframes spin {
   to {
     transform: rotate(360deg);
