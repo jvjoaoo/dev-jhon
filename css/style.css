@@ -105,7 +105,6 @@ p {
 }
 /* -- Projetos --*/
 .section-projetos {
-  height: 50vh;
   background: url("../assets/imagens/projetos/bg-image-projetos.jpg") no-repeat
     center/cover fixed;
 }
