@@ -1,6 +1,6 @@
 .container {
-  width: 70%;
-  margin: 0 auto;
+  width: 100%;
+  margin: 0 15px;
 }
 .cabecalhoPrincipal {
   padding: 30px 0;
@@ -19,13 +19,16 @@
 }
 
 .logo__devJhon {
-  width: 170px;
+  width: 100px;
+}
+.cabecalhoPrincipal-nav {
+  display: flex;
 }
 .cabecalhoPrincipal-nav-link {
-  padding: 10px;
+  padding: 10px 10px;
   color: #fff;
   text-decoration: none;
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: 200;
   display: block;
   transition: 0.5s;
@@ -36,10 +39,6 @@
 
 .cabecalhoPrincipal .container {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-}
-
-.cabecalhoPrincipal-nav {
-  display: flex;
 }

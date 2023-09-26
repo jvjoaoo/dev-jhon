@@ -13,7 +13,8 @@ p {
   padding: 10px 0;
 }
 .bannerInicio {
-  background: url("../imagens/bg-image02.jpg") no-repeat center/cover fixed;
+  background: url("../assets/imagens/bg-image02.jpg") no-repeat center/cover
+    fixed;
   height: 100vh;
 }
 .containerInicio {
@@ -26,7 +27,7 @@ p {
 }
 .title-principal {
   color: #fff;
-  font-size: 4rem;
+  font-size: 1.8rem;
   font-weight: 300;
   text-align: center;
 }
@@ -38,7 +39,7 @@ p {
   white-space: nowrap;
   color: #fff;
   font-weight: 300;
-  font-size: 2.5rem;
+  font-size: 1.2rem;
   text-transform: uppercase;
   text-align: center;
   margin: 1rem 0;
@@ -54,8 +55,9 @@ p {
   color: #fff;
   padding: 10px;
   transition: 0.2s;
-  width: 15%;
-  font-size: 1.5rem;
+  width: 100%;
+  max-width: 200px;
+  font-size: 1.2rem;
 }
 .cta-principal:hover {
   background-color: #fff;
@@ -63,46 +65,41 @@ p {
 }
 /* -- Primeira section Sobre mim */
 .sobre {
-  padding: 3rem 10rem;
+  padding: 3rem 1rem;
 }
 
 .containerAbout {
   display: flex;
   align-items: center;
   flex-direction: column;
-  flex-wrap: wrap;
 }
 .img-aboutMe {
-  width: 300px;
-  height: 300px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   box-shadow: 3px 3px 8px #000;
 }
 .title-aboutMe {
   color: #000;
-  font-size: 3rem;
+  font-size: 1.5rem;
   margin: 1rem 0;
-  font-weight: 200;
+  font-weight: 400;
   text-align: center;
 }
 .textAbout {
-  font-size: 1.3rem;
-  font-weight: 300;
+  font-size: 1rem;
+  font-weight: 400;
   line-height: 24px;
   text-align: inherit;
 }
 
-.title-descricao {
+.title {
   font-size: 3rem;
   font-weight: 200;
   text-transform: uppercase;
   text-align: center;
   margin-top: 30px;
 }
-.heading-decoration {
-  width: 20%;
-}
-
 .escolha-cores {
   height: 300px;
   display: flex;
@@ -113,62 +110,41 @@ p {
 /* -- Skills --*/
 .title-descricao {
   color: #000;
-  font-size: 3rem;
+  font-size: 1.5rem;
   margin: 2rem 0;
 }
-.config-interna-list ul {
-  list-style: disc;
-  padding-left: 1.1rem;
-}
-.config-firstList {
-  font-size: 1.5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.config-firstList li {
-  padding: 2rem 1.1rem;
-  list-style: none;
-}
 .skills-text {
-  font-size: 1.2rem;
-  font-weight: 200;
-  padding: 2.7rem 3rem;
-  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: inherit;
 }
 /* -- Projetos --*/
-.title-descricao-text {
-  color: #fff;
-  font-size: 3rem;
-  margin: 1rem 0;
-}
-.conteudo-textual p {
-  color: #f1f1f1;
-  font-size: 1.2rem;
-  padding: 0.5rem 0;
-}
 .section-projetos {
-  height: 100vh;
-  background: url("../imagens/projetos/bg-image-projetos.jpg") no-repeat
+  height: 50vh;
+  background: url("../assets/imagens/projetos/bg-image-projetos.jpg") no-repeat
     center/cover fixed;
 }
 .projetoBackground {
   background: rgba(17, 17, 17, 0.9);
-  height: 100vh;
+  height: 50vh;
 }
-.title-descricaoProjetos {
-  color: #fff;
-  font-size: 3rem;
-  font-weight: 200;
+.projeto__align {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px;
+}
+.title__projetos {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 400;
   text-transform: uppercase;
   text-align: center;
-  padding: 2rem 1rem;
+  margin-bottom: 20px;
 }
-
 .loading__projeto {
   width: 100px;
   height: 100px;
-  margin: 120px auto;
   border: 20px solid rgba(255, 255, 255, 0.1);
   border-top-color: #ff9700;
   border-radius: 50%;
@@ -176,17 +152,24 @@ p {
 }
 .text-loading {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1rem;
+  font-weight: 700;
   color: #fff;
+  border-right: 4px solid;
+  width: 10ch;
+  overflow: hidden;
+  animation: loading 3s steps(10), blinking 0.3s infinite step-end;
+  white-space: nowrap;
 }
 /* -- Contato/Footer --*/
 
 .contato {
-  padding: 3rem 10rem;
+  background-color: #222222;
+  padding: 3rem 1rem;
 }
 
 .title-descricao-contato {
-  color: #000;
+  color: #fff;
   text-align: center;
   font-weight: 200;
   margin: 1rem 0;
@@ -194,7 +177,7 @@ p {
 
 .contatosInfo {
   text-align: center;
-  font-size: 2rem;
+  font-size: 1rem;
   font-weight: 200;
   padding: 3rem 0;
 }
@@ -203,7 +186,7 @@ p {
   padding: 1rem;
 }
 .contatosInfo a {
-  color: #000;
+  color: #fff;
   text-decoration: none;
 }
 .contatosInfo a:hover {
@@ -230,6 +213,14 @@ p {
   }
   to {
     width: 25ch;
+  }
+}
+@keyframes loading {
+  from {
+    width: 0;
+  }
+  to {
+    width: 10ch;
   }
 }
 
