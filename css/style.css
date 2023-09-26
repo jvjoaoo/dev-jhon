@@ -93,6 +93,7 @@ p {
   text-align: inherit;
 }
 /* -- work/Skills --*/
+/* -- div Work -- */
 .about__work {
   width: 95%;
   border: 0px solid #000;
@@ -100,10 +101,13 @@ p {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
   padding: 10px;
 }
+
+/* -- div skills -- */
+
 .subtitle__about {
   color: #000;
   font-size: 1.5rem;
-  margin: 2rem 0;
+  margin: 1rem 0;
 }
 .about__text {
   font-size: 1rem;
