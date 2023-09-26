@@ -156,12 +156,6 @@ p {
   background: rgba(17, 17, 17, 0.9);
   height: 100vh;
 }
-.projetos-config {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  padding: 2rem 0;
-}
 .title-descricaoProjetos {
   color: #fff;
   font-size: 3rem;
@@ -181,10 +175,9 @@ p {
   animation: spin 1s linear infinite;
 }
 .text-loading {
-  margin-top: 50px;
+  text-align: center;
   font-size: 1.5rem;
   color: #fff;
-  position: absolute;
 }
 /* -- Contato/Footer --*/
 

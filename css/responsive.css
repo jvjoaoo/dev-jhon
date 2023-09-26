@@ -84,72 +84,16 @@
   .section-projetos {
     height: auto;
   }
-  .projetos-config {
-    flex-direction: column;
-    align-items: center;
-  }
   .title-descricaoProjetos {
     font-size: 2rem;
   }
   .projetoBackground {
     height: auto;
   }
-  .boxprojetos01 {
-    width: 90%;
-    height: 20%;
-  }
-  .boxprojetos02 {
-    width: 90%;
-    height: 20%;
-  }
-  .boxprojetos03 {
-    width: 90%;
-    height: 20%;
-  }
-  .boxprojetos01:hover {
-    transform: none;
-    box-shadow: 20px 10px 8px #000;
-  }
-  .boxprojetos02:hover {
-    transform: none;
-    box-shadow: 20px 10px 8px #000;
-  }
-  .boxprojetos03:hover {
-    transform: none;
-    box-shadow: 20px 10px 8px #000;
-  }
 }
 @media screen and (min-width: 768px) {
-  .projetos-config {
-    flex-direction: row;
-  }
   .title-descricaoProjetos {
     font-size: 3rem;
-  }
-  .boxprojetos01 {
-    width: 30%;
-    height: 300px;
-  }
-  .boxprojetos02 {
-    width: 30%;
-    height: 300px;
-  }
-  .boxprojetos03 {
-    width: 30%;
-    height: 300px;
-  }
-
-  .boxprojetos01:hover {
-    transform: scale(1.1);
-    box-shadow: 20px 10px 8px #000;
-  }
-  .boxprojetos02:hover {
-    transform: scale(1.1);
-    box-shadow: 20px 10px 8px #000;
-  }
-  .boxprojetos03:hover {
-    transform: scale(1.1);
-    box-shadow: 20px 10px 8px #000;
   }
 }
 /* --------------------- MEDIA CONTATO ------------------------ */
