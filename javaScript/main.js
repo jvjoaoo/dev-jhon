@@ -15,9 +15,8 @@ function diminuiHeader() {
   }
 }
 
+// Animação Switch (Darkmode e LightMode)
 function toggleMode() {
   const modoNoturno = document.querySelector(".sobre")
   modoNoturno.classList.toggle("dark__mode")
-
-  // troca de imagem
 }
