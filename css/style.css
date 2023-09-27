@@ -7,7 +7,7 @@
   --surface-color: rgba(165, 163, 163, 0.09);
   --surface-color-hover: rgba(94, 92, 92, 0.5);
   --highlight-color: rgba(255, 255, 255, 0.2);
-  --btn-bg-mode: #ccc url(./assets/imagens/sobre/moon-dark-mode.png) no-repeat
+  --btn-bg-mode: #ccc url(./assets/imagens/sobre/moon-stars.svg) no-repeat
     center;
 }
 
@@ -18,7 +18,7 @@
   --surface-color: rgba(34, 34, 34, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.5);
   --highlight-color: rgba(37, 37, 37, 0.2);
-  --btn-bg-mode: #ffffff url(./assets/imagens/sobre/sun-light-mode.png)
+  --btn-bg-mode: #ffffff url(./assets/imagens/sobre/moon-dark-mode.png)
     no-repeat center;
 }
 
