@@ -7,7 +7,8 @@
   --surface-color: rgba(165, 163, 163, 0.09);
   --surface-color-hover: rgba(94, 92, 92, 0.5);
   --highlight-color: rgba(255, 255, 255, 0.2);
-  --btn-bg-mode: #ccc url(/assets/imagens/sobre/moon-stars.svg) no-repeat center;
+  --btn-bg-mode: #ccc url(/assets/imagens/sobre/moon-dark-mode.png) no-repeat
+    center;
 }
 
 .dark__mode {
@@ -17,7 +18,8 @@
   --surface-color: rgba(34, 34, 34, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.5);
   --highlight-color: rgba(37, 37, 37, 0.2);
-  --btn-bg-mode: #ffffff url(/assets/imagens/sobre/sun.svg) no-repeat center;
+  --btn-bg-mode: #ffffff url(/assets/imagens/sobre/sun-light-mode.png) no-repeat
+    center;
 }
 
 html {
@@ -33,7 +35,7 @@ p {
 .bannerInicio {
   background: url("../assets/imagens/bg-image02.jpg") no-repeat center/cover
     fixed;
-  height: 100vh;
+  height: 90vh;
 }
 .containerInicio {
   display: flex;
@@ -44,7 +46,7 @@ p {
   background: rgba(0, 0, 0, 0.9);
 }
 .title-principal {
-  color: #fff;
+  color: var(--primary-color-text);
   font-size: 1.8rem;
   font-weight: 300;
   text-align: center;
@@ -55,7 +57,7 @@ p {
   overflow: hidden;
   animation: typing 3s steps(25), blinking 0.7s infinite step-end;
   white-space: nowrap;
-  color: #fff;
+  color: var(--primary-color-text);
   font-weight: 300;
   font-size: 1.2rem;
   text-transform: uppercase;
@@ -70,7 +72,7 @@ p {
   margin: 3rem 0;
   text-decoration: none;
   font-weight: 200;
-  color: #fff;
+  color: var(--primary-color-text);
   padding: 10px;
   transition: 0.2s;
   width: 100%;
@@ -212,7 +214,7 @@ p {
   padding: 100px;
 }
 .title__projetos {
-  color: #ffffff;
+  color: var(--primary-color-text);
   font-size: 1.5rem;
   font-weight: 400;
   text-transform: uppercase;
@@ -231,7 +233,7 @@ p {
   text-align: center;
   font-size: 1rem;
   font-weight: 700;
-  color: #fff;
+  color: var(--primary-color-text);
   border-right: 4px solid;
   width: 10ch;
   overflow: hidden;
@@ -247,7 +249,7 @@ p {
 
 .title__contato {
   font-size: 1.5rem;
-  color: #fff;
+  color: var(--primary-color-text);
   font-weight: 400;
 }
 
@@ -256,7 +258,7 @@ p {
   font-weight: 200;
 }
 .contatosInfo a {
-  color: #fff;
+  color: var(--primary-color-text);
   text-decoration: none;
 }
 .contatosInfo a:hover {
@@ -266,7 +268,7 @@ p {
 .copyright-config {
   background: #191919;
   padding: 0 1rem;
-  color: #fff;
+  color: var(--primary-color-text);
   text-align: center;
   font-size: 0.7rem;
   font-weight: 200;
