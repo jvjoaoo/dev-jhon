@@ -1,7 +1,25 @@
-/*:root{
-	--primary: rgba(0,0,0, 0.35);
-	--secondary: rgba(67,67,67, 0.35);
-}*/
+:root {
+  --primary-color-text: #ffffff;
+  /* --- Switch Button --- */
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --stroke-color: rgba(177, 177, 177, 0.5);
+  --surface-color: rgba(165, 163, 163, 0.09);
+  --surface-color-hover: rgba(94, 92, 92, 0.5);
+  --highlight-color: rgba(255, 255, 255, 0.2);
+  --btn-bg-mode: #ccc url(/assets/imagens/sobre/moon-stars.svg) no-repeat center;
+}
+
+.dark__mode {
+  --text-color: #ffffff;
+  --bg-color: #222222;
+  --stroke-color: rgba(0, 0, 0, 0.5);
+  --surface-color: rgba(34, 34, 34, 0.05);
+  --surface-color-hover: rgba(0, 0, 0, 0.5);
+  --highlight-color: rgba(37, 37, 37, 0.2);
+  --btn-bg-mode: #ffffff url(/assets/imagens/sobre/sun.svg) no-repeat center;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -65,6 +83,7 @@ p {
 }
 /* -- Primeira section Sobre mim */
 .sobre {
+  background-color: var(--bg-color);
   padding: 3rem 1rem;
 }
 
@@ -79,20 +98,69 @@ p {
   border-radius: 50%;
   box-shadow: 3px 3px 8px #000;
 }
+/* -- Switch button -- */
+#switch {
+  position: relative;
+  width: 64px;
+  margin: 4px auto;
+}
+#switch {
+  position: relative;
+  width: 64px;
+  margin: 15px auto;
+}
+#switch button {
+  width: 32px;
+  height: 32px;
+  border: 0;
+  border-radius: 50%;
+  background: var(--btn-bg-mode);
+  position: absolute;
+  /*top: 50%;*/
+  transform: translateY(-10%);
+  z-index: 1;
+  animation: slide-in__darkmode 0.4s forwards;
+  transition: 0.4s;
+}
+
+#switch span {
+  display: block;
+  width: 64px;
+  height: 24px;
+  background: var(--surface-color);
+  border: 1px solid var(--stroke-color);
+  border-radius: 9999px;
+  backdrop-filter: blur(4px);
+}
+
+.dark__mode #switch button {
+  animation: slide-in__lightmode 0.4s forwards;
+}
+
+#switch button:hover {
+  outline: 8px solid var(--highlight-color);
+}
+/* -- Content About -- */
 .title-aboutMe {
-  color: #000;
+  color: var(--text-color);
   font-size: 1.5rem;
   margin: 1rem 0;
   font-weight: 400;
   text-align: center;
 }
 .textAbout {
+  color: var(--text-color);
   font-size: 1rem;
   font-weight: 400;
   line-height: 24px;
   text-align: inherit;
 }
 /* -- work/Skills --*/
+.container__sobre {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
 /* -- div Work -- */
 .about__work {
   width: 95%;
@@ -100,12 +168,25 @@ p {
   border-radius: 3px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
   padding: 10px;
+  color: var(--text-color);
+}
+
+.about__work h4 {
+  font-size: 1.2rem;
+  color: var(--text-color);
 }
 
 /* -- div skills -- */
-
+.about__skills {
+  width: 95%;
+  border: 0px solid #000;
+  border-radius: 3px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  color: var(--text-color);
+}
 .subtitle__about {
-  color: #000;
+  color: var(--text-color);
   font-size: 1.5rem;
   margin: 1rem 0;
 }
@@ -215,7 +296,24 @@ p {
     border-color: transparent;
   }
 }
+/* -- Switch animation -- */
+@keyframes slide-in__lightmode {
+  from {
+    left: 0;
+  }
+  to {
+    left: 50%;
+  }
+}
 
+@keyframes slide-in__darkmode {
+  from {
+    left: 50%;
+  }
+  to {
+    left: 0;
+  }
+}
 /* -- Loading/Carregamento -- */
 @keyframes spin {
   to {

@@ -14,3 +14,10 @@ function diminuiHeader() {
     header.classList.add("scrollmax")
   }
 }
+
+function toggleMode() {
+  const modoNoturno = document.querySelector(".sobre")
+  modoNoturno.classList.toggle("dark__mode")
+
+  // troca de imagem
+}
