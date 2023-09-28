@@ -59,6 +59,7 @@ p {
   color: var(--primary-color-text);
   font-weight: 300;
   font-size: 1.2rem;
+  line-height: 1.5;
   text-transform: uppercase;
   text-align: center;
   margin: 1rem 0;
@@ -86,6 +87,9 @@ p {
 .sobre {
   background-color: var(--bg-color);
   padding: 3rem 1rem;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 .containerAbout {
@@ -226,7 +230,7 @@ p {
   border: 20px solid rgba(255, 255, 255, 0.1);
   border-top-color: #ff9700;
   border-radius: 50%;
-  animation: spin 1s linear infinite;
+  animation: spin 2s linear infinite;
 }
 .text-loading {
   text-align: center;
@@ -250,20 +254,22 @@ p {
   font-size: 1.5rem;
   color: var(--primary-color-text);
   font-weight: 400;
+  text-align: center;
 }
-
-.contatosInfo {
-  font-size: 1rem;
-  font-weight: 200;
+.line__contato {
+  width: 50%;
 }
-.contatosInfo a {
-  color: var(--primary-color-text);
-  text-decoration: none;
+/*-- Social links --*/
+.social__links {
+  display: flex;
+  justify-content: center;
 }
-.contatosInfo a:hover {
-  color: #ff9700;
-  transition: 0.2s;
+.social__links-item {
+  width: 30px;
+  margin: 0px 10px;
+  color: #fff;
 }
+/* -- Copyright --*/
 .copyright-config {
   background: #191919;
   padding: 0 1rem;
@@ -274,13 +280,41 @@ p {
 }
 
 /* -- Animações em CSS -- */
-/* -- Maquina de escrever -- */
+/* -- Maquina de escrever (Banner) -- */
 @keyframes typing {
   from {
     width: 0;
   }
   to {
     width: 25ch;
+  }
+}
+@keyframes blinking {
+  50% {
+    border-color: transparent;
+  }
+}
+/* -- Switch animation (dark/light mode)-- */
+@keyframes slide-in__lightmode {
+  from {
+    left: 0;
+  }
+  to {
+    left: 50%;
+  }
+}
+@keyframes slide-in__darkmode {
+  from {
+    left: 50%;
+  }
+  to {
+    left: 0;
+  }
+}
+/* -- Loading (maquina de escrever)/Carregamento -- */
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
   }
 }
 @keyframes loading {
@@ -291,33 +325,11 @@ p {
     width: 10ch;
   }
 }
-
-@keyframes blinking {
-  50% {
-    border-color: transparent;
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
   }
-}
-/* -- Switch animation -- */
-@keyframes slide-in__lightmode {
-  from {
-    left: 0;
-  }
-  to {
-    left: 50%;
-  }
-}
-
-@keyframes slide-in__darkmode {
-  from {
-    left: 50%;
-  }
-  to {
-    left: 0;
-  }
-}
-/* -- Loading/Carregamento -- */
-@keyframes spin {
-  to {
-    transform: rotate(360deg);
+  100% {
+    opacity: 1;
   }
 }
