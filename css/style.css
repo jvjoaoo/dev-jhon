@@ -3,7 +3,7 @@
   /* --- Switch Button --- */
   --bg-color: #ffffff;
   --text-color: #000000;
-  --stroke-color: rgba(177, 177, 177, 0.5);
+  --stroke-color: rgba(150, 150, 150, 0.5);
   --surface-color: rgba(165, 163, 163, 0.09);
   --surface-color-hover: rgba(94, 92, 92, 0.5);
   --highlight-color: rgba(255, 255, 255, 0.2);
@@ -14,7 +14,7 @@
 .dark__mode {
   --text-color: #ffffff;
   --bg-color: #222222;
-  --stroke-color: rgba(0, 0, 0, 0.5);
+  --stroke-color: rgba(100, 100, 100, 0.5);
   --surface-color: rgba(34, 34, 34, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.5);
   --highlight-color: rgba(37, 37, 37, 0.2);
