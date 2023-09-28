@@ -249,7 +249,11 @@ p {
   background-color: #222222;
   padding: 3rem 1rem;
 }
-
+.container__contato {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
 .title__contato {
   font-size: 1.5rem;
   color: var(--primary-color-text);
@@ -257,7 +261,8 @@ p {
   text-align: center;
 }
 .line__contato {
-  width: 50%;
+  width: 25%;
+  margin: 15px auto;
 }
 /*-- Social links --*/
 .social__links {
