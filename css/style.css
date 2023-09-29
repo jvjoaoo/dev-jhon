@@ -52,13 +52,13 @@ p {
 }
 .title-descricao-inicio {
   border-right: 4px solid;
-  width: 25ch;
+  width: 31ch;
   overflow: hidden;
   animation: typing 3s steps(25), blinking 0.7s infinite step-end;
   white-space: nowrap;
   color: var(--primary-color-text);
   font-weight: 300;
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 1.5;
   text-transform: uppercase;
   text-align: center;
@@ -108,9 +108,6 @@ p {
 .sobre {
   background-color: var(--bg-color);
   padding: 3rem 1rem;
-  animation: fadeInAnimation ease 3s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
 }
 
 .containerAbout {
@@ -349,13 +346,5 @@ p {
   }
   to {
     width: 10ch;
-  }
-}
-@keyframes fadeInAnimation {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
   }
 }
