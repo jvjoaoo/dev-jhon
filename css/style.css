@@ -57,7 +57,7 @@ p {
   white-space: nowrap;
   color: var(--primary-color-text);
   font-weight: 300;
-  font-size: 1rem;
+  font-size: 0.9rem;
   line-height: 1.5;
   text-transform: uppercase;
   text-align: center;
