@@ -99,6 +99,11 @@ p {
   margin-top: 10px;
 }
 
+.social__links-item-inicio {
+  width: 30px;
+  margin: 15px 5px;
+}
+
 /* -- Primeira section Sobre mim */
 .sobre {
   background-color: var(--bg-color);
