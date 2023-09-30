@@ -54,7 +54,7 @@ p {
   border-right: 4px solid;
   width: 32ch;
   overflow: hidden;
-  animation: typing 4s steps(34), blinking 0.7s infinite step-end;
+  animation: typing 4s steps(30), blinking 0.7s infinite step-end;
   white-space: nowrap;
   color: var(--primary-color-text);
   font-weight: 300;
@@ -322,7 +322,7 @@ p {
     width: 0;
   }
   to {
-    width: 34ch;
+    width: 30ch;
   }
 }
 @keyframes blinking {
