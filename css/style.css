@@ -369,7 +369,7 @@ p {
     opacity: 0.5;
   }
   50% {
-    transform: translateY(25px) rotate(3deg);
+    transform: translateY(25px) rotate(1deg);
     opacity: 1;
   }
 }

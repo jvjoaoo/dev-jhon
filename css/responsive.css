@@ -70,8 +70,8 @@
     display: block;
   }
   .imagem__flutuante {
-    width: 250px;
-    animation: float 2s ease-in-out infinite;
+    width: 300px;
+    animation: float 4.5s ease-in-out infinite;
   }
 
   /* sessão sobre 992px */
@@ -83,5 +83,10 @@
   }
   .textAbout {
     font-size: 1.1rem;
+  }
+
+  .img-aboutMe {
+    width: 150px;
+    height: 150px;
   }
 }
