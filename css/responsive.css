@@ -3,7 +3,7 @@
   .title-descricao-inicio {
     text-align: left;
     font-size: 1.3rem;
-    width: 34ch;
+    width: 30ch;
   }
   /* sessão sobre 768px */
   .sobre {
@@ -27,7 +27,7 @@
   .title-descricao-inicio {
     text-align: left;
     font-size: 1.5rem;
-    width: 34ch;
+    width: 30ch;
   }
   .cta-principal {
     border: 2px solid #fff;
