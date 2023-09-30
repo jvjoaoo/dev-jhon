@@ -91,3 +91,14 @@
     height: 150px;
   }
 }
+
+/* --- Responsivo resolução 1200 laptops e telas menores --- */
+@media screen and (min-width: 1200px) {
+  .sobre {
+    padding: 3rem 10rem;
+  }
+  .img-aboutMe {
+    width: 170px;
+    height: 170px;
+  }
+}
