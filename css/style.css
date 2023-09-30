@@ -48,10 +48,11 @@ p {
   color: var(--primary-color-text);
   font-size: 1.8rem;
   font-weight: 300;
+  text-align: center;
 }
 .title-descricao-inicio {
   border-right: 4px solid;
-  width: 34ch;
+  width: 32ch;
   overflow: hidden;
   animation: typing 4s steps(34), blinking 0.7s infinite step-end;
   white-space: nowrap;
@@ -67,6 +68,7 @@ p {
 .container__cta {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 .cta-principal {
   border: 2px solid #fff;
@@ -102,9 +104,17 @@ p {
   margin-top: 10px;
 }
 
+.social__links {
+  display: flex;
+  justify-content: center;
+}
 .social__links-item-inicio {
   width: 30px;
   margin: 15px 5px;
+}
+
+.container__img {
+  display: none;
 }
 
 /* -- Primeira section Sobre mim */
@@ -286,7 +296,7 @@ p {
   margin: 15px auto;
 }
 /*-- Social links --*/
-.social__links {
+.social__links-rodape {
   display: flex;
   justify-content: center;
 }
@@ -349,5 +359,17 @@ p {
   }
   to {
     width: 10ch;
+  }
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+    opacity: 0.5;
+  }
+  50% {
+    transform: translateY(25px) rotate(3deg);
+    opacity: 1;
   }
 }

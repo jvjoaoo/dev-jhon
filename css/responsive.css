@@ -1,12 +1,87 @@
-/*@media screen and (min-width: 769px) {
-  .containerInicio {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    height: 100%;
-    padding-left: 100px;
-    background: rgba(0, 0, 0, 0.9);
+/* --- Responsivo resolução 768 Tablets e ipads --- */
+@media screen and (min-width: 768px) {
+  .title-descricao-inicio {
+    text-align: left;
+    font-size: 1.3rem;
+    width: 34ch;
+  }
+  /* sessão sobre 768px */
+  .sobre {
+    padding: 3rem 2rem;
   }
 }
-*/
+/* --- Responsivo resolução 992 laptops e telas menores --- */
+@media screen and (min-width: 992px) {
+  /* inicio sobre 992px */
+  .containerInicio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .title-principal {
+    font-size: 3rem;
+    text-align: left;
+  }
+  .title-descricao-inicio {
+    text-align: left;
+    font-size: 1.5rem;
+    width: 34ch;
+  }
+  .cta-principal {
+    border: 2px solid #fff;
+    border-radius: 5px;
+    text-align: left;
+    text-decoration: none;
+    font-weight: 200;
+    color: var(--primary-color-text);
+    padding: 10px;
+    transition: 0.2s;
+    margin-right: 10px;
+    width: 160px;
+    font-size: 1.2rem;
+  }
+  .cta__whatsapp {
+    background-color: #ffffff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    color: var(--text-color);
+    text-align: left;
+    text-decoration: none;
+    font-weight: 400;
+    padding: 10px;
+    transition: 0.2s;
+    width: 160px;
+    font-size: 1.2rem;
+    margin-top: 0px;
+  }
+
+  .container__cta {
+    flex-direction: row;
+  }
+  .social__links {
+    justify-content: flex-start;
+  }
+  .social__links-item-inicio {
+    width: 40px;
+  }
+
+  .container__img {
+    display: block;
+  }
+  .imagem__flutuante {
+    width: 250px;
+    animation: float 2s ease-in-out infinite;
+  }
+
+  /* sessão sobre 992px */
+  .sobre {
+    padding: 3rem 4rem;
+  }
+  .title-aboutMe {
+    font-size: 2rem;
+  }
+  .textAbout {
+    font-size: 1.1rem;
+  }
+}
