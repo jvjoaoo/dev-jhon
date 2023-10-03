@@ -90,6 +90,12 @@
     width: 150px;
     height: 150px;
   }
+  .about__work {
+    width: 97%;
+  }
+  .about__skills {
+    width: 100%;
+  }
 }
 
 /* --- Responsivo resolução 1200 laptops e telas menores --- */
