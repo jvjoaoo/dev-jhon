@@ -24,11 +24,21 @@ function toggleMode() {
 // Efeito accordion
 function clickAccordion(t) {
   let pai = document.getElementsByClassName("title__accordion")[t].parentElement
-  let conteudo = pai.lastElementChild.classList.contains("hide")
+  let conteudo = pai.classList.contains("skillHide")
+  let sessoes = document.getElementsByClassName("skills__accordion")
 
   if (conteudo == true) {
-    pai.lastElementChild.className = "show"
+    pai.className = "skills__accordion skillShow"
   } else {
-    pai.lastElementChild.className = "hide"
+    pai.className = "skills__accordion skillHide"
+  }
+
+  if (conteudo == true) {
+    for (let s = 0; s < sessoes.length; s++) {
+      sessoes[s].className = "skills__accordion skillHide"
+    }
+    pai.className = "skills__accordion skillShow"
+  } else {
+    pai.className = "skills__accordion skillHide"
   }
 }

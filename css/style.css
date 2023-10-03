@@ -258,11 +258,11 @@ p {
   padding: 20px;
   box-sizing: border-box;
 }
-.show {
+.skillShow p {
   display: block;
   padding: 20px 10px;
 }
-.hide {
+.skillHide p {
   display: none;
 }
 /* -- Projetos --*/
