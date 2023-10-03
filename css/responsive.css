@@ -71,7 +71,7 @@
     display: block;
   }
   .imagem__flutuante {
-    width: 300px;
+    width: 400px;
     animation: float 4.5s ease-in-out infinite;
   }
 

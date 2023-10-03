@@ -264,6 +264,7 @@ p {
 }
 .skillHide p {
   display: none;
+  transition: all 0.5s ease;
 }
 /* -- Projetos --*/
 .section-projetos {
@@ -403,7 +404,7 @@ p {
     opacity: 0.5;
   }
   50% {
-    transform: translateY(25px) rotate(1deg);
+    transform: translateY(20px) rotate(2.5deg);
     opacity: 1;
   }
 }
