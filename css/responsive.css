@@ -120,7 +120,6 @@
     display: flex;
     align-items: center;
     border-radius: 50%;
-    background: rgba(255, 255, 255, 0);
     transition: 0.3s;
   }
   .social__links-rodape a:hover {
