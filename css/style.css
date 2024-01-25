@@ -106,6 +106,20 @@ p {
 .social__links {
   display: flex;
   justify-content: center;
+  gap: 10px;
+}
+.social__links a {
+  display: flex;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-top: 10px;
+  padding: 5px;
+  transition: 0.3s;
+}
+.social__links a:hover {
+  background: rgba(255, 255, 255, 0.1);
 }
 .social__links-item-inicio {
   width: 30px;
@@ -334,11 +348,20 @@ p {
 .social__links-rodape {
   display: flex;
   justify-content: center;
+  gap: 10px;
+}
+.social__links-rodape a {
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0);
+  transition: 0.3s;
+}
+.social__links-rodape a:hover {
+  background: rgba(255, 255, 255, 0.1);
 }
 .social__links-item {
-  width: 30px;
-  margin: 0px 10px;
-  color: #fff;
+  margin: 10px;
 }
 /* -- Copyright --*/
 .copyright-config {

@@ -1,6 +1,15 @@
 const header = document.querySelector("header")
 
 window.addEventListener("scroll", diminuiHeader)
+/*
+$(document).ready(function () {
+  $("#html5div").click(function () {
+    var paragrafo = $("#meuconteudo")
+    // Adicione a classe desejada
+    paragrafo.addClass("skillShow")
+  })
+})
+*/
 
 function diminuiHeader() {
   if (window.pageYOffset > 0 && header.classList.contains("scrollmax")) {
