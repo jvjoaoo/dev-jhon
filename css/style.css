@@ -272,14 +272,16 @@ p {
 }
 .projetoBackground {
   background: rgba(17, 17, 17, 0.9);
-  position: relative;
-  height: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .projeto__align {
   display: flex;
   flex-direction: column;
+  gap: 20px;
   align-items: center;
-  padding: 100px;
 }
 .title__projetos {
   color: var(--primary-color-text);
@@ -325,10 +327,18 @@ p {
   font-weight: 400;
   text-align: center;
 }
-.line__contato {
-  width: 25%;
+.container__contato h2::after {
+  content: "";
+  background-color: #fff;
+  display: block;
+  width: 10%;
+  height: 2px;
   margin: 15px auto;
 }
+/*.line__contato {
+  width: 25%;
+  margin: 15px auto;
+}*/
 /*-- Social links --*/
 .social__links-rodape {
   display: flex;
